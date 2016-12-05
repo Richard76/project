@@ -44,11 +44,48 @@
 
   <!-- just use a number and class 'column' or 'columns' -->
   <div class="row">
-    <div class="twelve columns">Input Section</div>
+    <div class="twelve columns">
+      <h2>Input Section</h2>
+      <form action="action_page.php">
+
+        <textarea name="name" rows="1" cols="30">Please Enter Your First Name Here</textarea>
+        <br>
+
+          <select name="skills">
+              <option value="addition" selected>Addition</option>
+              <option value="subtraction">Subtraction</option>
+              <option value="multiplication">Multiplication</option>
+              <option value="all">All</option>
+          </select>
+          <br>
+
+          <select name="difficulty">
+              <option value="easy" selected>Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard" >Hard</option>
+          </select>
+          <br>
+
+          <select name="speed">
+              <option value="slow" selected>Slow</option>
+              <option value="medium">Medium</option>
+              <option value="fast" >Fast</option>
+          </select>
+          <br>
+
+          <select name="rounds">
+              <option value="one" selected>One</option>
+              <option value="three">Three</option>
+              <option value="five">Five</option>
+          </select>
+  <br><br>
+  <input type="submit">
+</form>
+    </div>
   </div>
 
   <div class="row">
-    <div class="twelve columns">Playing Section</div>  
+    <div class="twelve columns">Playing Section</div>
   </div>
 
   <div class="row">
